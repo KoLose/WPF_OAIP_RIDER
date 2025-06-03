@@ -8,4 +8,15 @@
         <UseWPF>true</UseWPF>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Remove="Source\sound.mp3" />
+      <Content Include="Source\sound.mp3">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Source\sound2.mp3" />
+      <Content Include="Source\sound2.mp3">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>
