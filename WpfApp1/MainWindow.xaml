@@ -2,6 +2,7 @@
     Background="#2f3864"
     Foreground="white"
     Height="600"
+    Icon="Source/icon.avif"
     Title="Трекер привычек"
     Width="800"
     mc:Ignorable="d"

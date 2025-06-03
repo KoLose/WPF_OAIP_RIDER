@@ -17,6 +17,11 @@
       <Content Include="Source\sound2.mp3">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
+      <None Remove="Source\icon.png" />
+      <None Remove="Source\icon.avif" />
+      <Content Include="Source\icon.avif">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>
